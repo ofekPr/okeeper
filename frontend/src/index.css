@@ -1,0 +1,26 @@
+main {
+    min-height: 80vh;
+}
+.noResizeTextArea {
+    resize: none;
+}
+.textArea {
+    max-height: 150px;
+}
+.page {
+    min-height: 225px;
+    transition: all 1s ease-out;
+}
+.page:hover {
+    transform: scale(1.1);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+    caret-color: transparent
+}
